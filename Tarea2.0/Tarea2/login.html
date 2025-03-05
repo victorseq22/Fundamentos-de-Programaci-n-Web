@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <title>Restaurante</title>
+    <link rel="stylesheet" href="css/estructura.css" />
+    <link rel="icon" href="imagenes/rest2.jpg" />
+  </head>
+
+  <body class="rest">
+    <header class="rest">
+      <h1 class="container text-center titulo1 pt-5 text-white">
+        Fuego & Brasa
+      </h1>
+      <p class="container pt-5 text-white text-center">
+        Tu seguridad es nuestra prioridad. <br />
+        Por favor, ingresa la información solicitada para acceder
+        satisfactioriamente a tu cuenta.
+      </p>
+    </header>
+
+    <section class="container">
+      <div class="row mt-5 justify-content-center">
+        <div class="col-md-6 col-lg-6">
+          <div class="p-4">
+            <div class="mb-4">
+              <h3 class="text-white text-center">Iniciar sesión</h3>
+            </div>
+            <div class="mb-3">
+              <label class="form-label text-white" for="in-txt-user"
+                >Usuario</label
+              >
+              <input class="form-control" id="in-txt-user" type="text" />
+            </div>
+            <div class="mb-3">
+              <label class="form-label text-white" for="in-txt-pass"
+                >Contraseña</label
+              >
+              <input class="form-control" id="in-txt-pass" type="password" />
+              <div id="forgot-pass">
+                <label>
+                  <a class="text-white" href="#">¿Olvidaste la contraseña?</a>
+                </label>
+              </div>
+            </div>
+            <br />
+            <br />
+            <br />
+            <div class="mb-4 form-check">
+              <input class="form-check-input" type="checkbox" id="rememberMe" />
+              <label class="form-check-label text-white" for="rememberMe"
+                >Recordarme en este dispositivo</label
+              >
+            </div>
+
+            <br />
+            <br />
+            <div class="text-center">
+              <a class="btn btn-primary btninicio cursor" id="btn-login"
+                >Iniciar sesión</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <footer class="text-center footer pb-2">Derechos Reservados</footer>
+
+    <!-- <script
+      src="https://lottie.host/embed/5cea3003-0d54-4c69-a1b9-d48090e40aac/Sgl4FD7Ou4.json"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script> -->
+
+    <script src="js/login.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.13/lottie.min.js"></script>
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@0.3.0/dist/lottie-player.js"></script>
+
+    <!-- <script>
+      let anima = document.querySelector(".animacion2");
+
+      let animation = bodymovin.loadAnimation({
+        container: anima,
+        path: "https://lottie.host/embed/5cea3003-0d54-4c69-a1b9-d48090e40aac/Sgl4FD7Ou4.json",
+        renderer: "svg",
+        loop: false,
+        autoplay: false,
+        name: "Cenfotec",
+      });
+
+      anima.addEventListener("click", function () {
+        animation.playSegments([0, 180], true);
+      });
+    </script> -->
+  </body>
+</html>
