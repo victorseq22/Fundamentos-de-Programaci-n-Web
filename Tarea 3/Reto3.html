@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector de Cines</title>
+    <link rel="stylesheet" href="CSS/Reto3.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        select {
+            padding: 10px;
+            font-size: 16px;
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Escoge tu restaurante</h2>
+    <select id="cineSelect" onchange="irAlCine()">
+        <option value="">Seleccione una opción</option>
+        <option value="https://www.mcdonalds.co.cr/">McDonald's</option>
+        <option value="https://pizzahutcr.com/external/#!/home">Pizza Hut</option>
+        <option value="https://www.bk.com/">Burguer King</option>
+        <option value="https://www.kfccostarica.cr/">KFC</option>
+        <option value="https://tacobell.cr/">TacoBell</option>
+    </select>
+
+    <div class="text-center mt-4">
+        <a href="index.html" class="btn btn-danger">⬅ Atras</a>
+    </div>
+
+    <script src="JS/Reto3.js"></script>
+
+</body>
+</html>

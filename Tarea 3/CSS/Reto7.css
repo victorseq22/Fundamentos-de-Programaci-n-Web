@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+#mapa {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.descripcion {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#opciones {
+    margin-top: 20px;
+}

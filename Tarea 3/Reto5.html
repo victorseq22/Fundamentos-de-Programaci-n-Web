@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Créditos</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <img src="Imagenes/cenfo.jpg" alt="Cenfo Logo" class="logo">
+            <h2>Simulador de créditos.</h2>
+            <p>Calcule la cuota aproximada.</p>
+            
+            <label for="modelo">Tipo</label>
+            <select id="modelo" onchange="cargarVersiones()">
+                <option value="">-- Seleccionar una opcion --</option>
+                <option value="navara">Casa 1</option>
+                <option value="sentra">Casa 2</option>
+            </select>
+            
+            <label for="version">Versión</label>
+            <select id="version">
+                <option value="">-- Seleccionar Versión --</option>
+            </select>
+            
+            <button onclick="calcularCuota()">Calcular</button>
+        </div>
+        <div class="result-container">
+            <img id="home-image" src="" alt="Imagen del vehículo">
+            <p id="cuota"></p>
+        </div>
+    </div>
+
+    <div class="text-center mt-4">
+        <a href="index.html" class="btn btn-danger">⬅ Atras</a>
+    </div>
+    
+    <script src="JS/Reto5.js"></script>
+</body>
+</html>

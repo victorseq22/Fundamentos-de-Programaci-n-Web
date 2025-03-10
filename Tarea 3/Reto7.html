@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Interactivo</title>
+    <link rel="stylesheet" href="CSS/Reto7.css">
+</head>
+<body>
+
+    <h1>Explora el Mapa Interactivo</h1>
+
+    <div class="container">
+        <!-- Mapa con áreas interactivas -->
+        <img src="Imagenes/mapa.PNG" usemap="#image-map" alt="Mapa interactivo">
+
+        <map name="image-map">
+            <area target="" alt="America" title="America" coords="277,163,86" shape="circle" onclick="mostrarDescripcion('america')" />
+            <area target="" alt="Europa" title="Europa" coords="645,147,63" shape="circle" onclick="mostrarDescripcion('europa')" />
+            <area target="" alt="Africa" title="Africa" coords="583,276,58" shape="circle" onclick="mostrarDescripcion('africa')" />
+            <area target="" alt="Asia" title="Asia" coords="802,102,68" shape="circle" onclick="mostrarDescripcion('asia')" />
+            <area target="" alt="Oceania" title="Oceania" coords="920,437,66" shape="circle" onclick="mostrarDescripcion('oceania')" />
+        </map>
+
+        <!-- Descripciones -->
+        <div id="opciones">
+            <div id="descripcion-america" class="descripcion">Descripción de América: América es un continente con una rica diversidad de culturas y paisajes.</div>
+            <div id="descripcion-europa" class="descripcion">Descripción de Europa: Europa es conocida por su historia, arquitectura y las diversas lenguas que se hablan.</div>
+            <div id="descripcion-africa" class="descripcion">Descripción de África: África es un continente que alberga una increíble biodiversidad y culturas ancestrales.</div>
+            <div id="descripcion-asia" class="descripcion">Descripción de Asia: Asia es el continente más grande y diverso, hogar de países con una rica historia y tradiciones.</div>
+            <div id="descripcion-oceania" class="descripcion">Descripción de Oceanía: Oceanía es una región compuesta por islas en el Pacífico, famosa por su vida marina y playas.</div>
+        </div>
+    </div>
+
+    <div class="text-center mt-4">
+        <a href="index.html" class="btn btn-danger">⬅ Atras</a>
+    </div>
+
+    <script src="JS/Reto7.js"></script>
+
+</body>
+</html>
+

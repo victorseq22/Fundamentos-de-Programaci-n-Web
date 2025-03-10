@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector de Color de Auto</title>
+    <link rel="stylesheet" href="CSS/Reto6.css">
+</head>
+<body>
+    <header>Agencia de Autos</header>
+    <p>Seleccione el color de su preferencia</p>
+    <p>Mitsubishi Montero Sport</p>
+    <div class="banner"></div>
+    <div class="car-container">
+        <img id="car-image" src="Imagenes/color.jpg" width="400" alt="Carro">
+        <div class="color-selector">
+            <div class="color-option" style="background: white;" onclick="changeColor('Imagenes/blanco.jfif')"></div>
+            <div class="color-option" style="background: black;" onclick="changeColor('Imagenes/negro.png')"></div>
+            <div class="color-option" style="background: red;" onclick="changeColor('Imagenes/rojo.jfif')"></div>
+            <div class="color-option" style="background: blue;" onclick="changeColor('Imagenes/azul.jfif')"></div>
+            <div class="color-option" style="background: brown;" onclick="changeColor('Imagenes/cafe.jfif')"></div>
+        </div>
+    </div>
+
+    <div class="text-center mt-4">
+        <a href="index.html" class="btn btn-danger">⬅ Atras</a>
+    </div>
+
+    
+    <script src="JS/Reto6.js"></script>
+</body>
+</html>

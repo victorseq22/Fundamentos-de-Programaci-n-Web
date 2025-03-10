@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Notas</title>
+    <link rel="stylesheet" href="CSS/Reto8.css">
+</head>
+<body>
+    <h2>Registro de Notas</h2>
+    <input type="text" id="nombre" placeholder="Nombre del estudiante">
+    <input type="text" id="apellidos" placeholder="Apellidos del estudiante">
+    <input type="number" id="nota1" placeholder="Nota 1" min="0" max="10">
+    <input type="number" id="nota2" placeholder="Nota 2" min="0" max="10">
+    <input type="number" id="nota3" placeholder="Nota 3" min="0" max="10">
+    <button onclick="agregarEstudiante()">Agregar</button>
+    
+    <h3>Consultar Estudiantes</h3>
+    <select id="listaEstudiantes">
+        <option value="">Seleccione un estudiante</option>
+    </select>
+    <button onclick="calcularPromedio()">Calcular Promedio</button>
+    
+    <p id="resultado"></p>
+
+    <div class="text-center mt-4">
+        <a href="index.html" class="btn btn-danger">⬅ Atras</a>
+    </div>
+
+    <script src="JS/Reto8.js"></script>
+</body>
+</html>
