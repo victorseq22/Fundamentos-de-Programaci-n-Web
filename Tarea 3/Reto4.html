@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demostración de Opción y Imagen</title>
+    <link rel="icon" href="Imagenes/favicon.png">
+    <link rel="stylesheet" href="CSS/Reto4.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Selecciona una opción</h1>
+        <select id="opciones" onchange="mostrarImagen()">
+            <option value="0">Selecciona una opción</option>
+            <option value="1">Desayuno</option>
+            <option value="2">Almuerzo</option>
+            <option value="3">Cena</option>
+        </select>
+        <div id="imagenContainer">
+            <!-- La imagen se mostrará aquí -->
+        </div>
+    </div>
+
+    <div class="text-center mt-4">
+        <a href="index.html" class="btn btn-danger">⬅ Atras</a>
+    </div>
+
+    <script src="JS/Reto4.js"></script>
+</body>
+</html>
