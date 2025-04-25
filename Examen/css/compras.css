@@ -1,0 +1,20 @@
+.form-control {
+    background-color: #6d6d6d;
+    border: 1px solid #7c7a7a;
+    color: #fff;
+    border-radius: 12px;
+  }
+  
+  .form-control::placeholder {
+    color: #ffffff;
+  }
+  
+  .form-control:focus {
+    background-color: #666464;
+    border-color: #28a745;
+    box-shadow: none;
+  }
+  
+  .card h3 {
+    color: #28a745;
+  }

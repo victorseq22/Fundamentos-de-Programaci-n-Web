@@ -1,0 +1,114 @@
+body {
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    background-color: var(--bg);
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+
+/*tamaño de la foto principal*/
+
+.fp img {
+    width: 620px;
+    height: 240px;
+}
+
+p {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.fondo {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+#rest {
+    font-size: 1.1rem;
+    border-radius: 10px;
+  }
+  
+  #cardSucursal {
+    transition: transform 0.3s ease;
+    background-color: #fefefe;
+  }
+  
+  #cardSucursal:hover {
+    transform: scale(1.02);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+  }
+  
+  #output-img img {
+    border-radius: 15px;
+    max-height: 400px;
+    object-fit: cover;
+  }
+
+.info{
+    padding: 100px 50px 80px 60px;
+    margin-top: 73px;
+    background-color: transparent;
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(241, 233, 233, 0.8);
+}
+
+h3{
+    letter-spacing: 2px;
+    font-family: 'Hurricane', cursive;
+    padding-top: 20px;
+    font-size: 70px;
+    color: rgb(77, 128, 107);
+}
+.encuesta{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.colorLabel{
+    color: black
+}
+.checkbox{
+    margin-left: 10px;
+}
+.inputs{
+    padding: 20px;
+} 
+.checks{
+    padding: 20px;
+}
+.radios{
+    padding: 20px;
+}
+
+.botonEnviar{
+    margin-top: 50px;
+    text-align: center;
+}
+.boton{
+    padding: 10px 30px;
+    border: none;
+    background-color: #435e7a;
+    color: white;
+    border-radius: 3px;
+}
+.Resultados{
+    margin-top: 50px;
+    text-align: center;
+}
+p{
+    font-size: 17px;
+}
+  
